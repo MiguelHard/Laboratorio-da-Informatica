@@ -1,0 +1,83 @@
+.gridcontainer {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    /* 5 colunas de tamanho igual */
+    background-color: #000;
+    min-height: 100%;
+  }
+  
+  .gridsquare {
+    aspect-ratio: 1;
+    /* mantém o quadrado */
+    /* cor inicial */
+    width: 100%;
+    height: 100%;
+  }
+  
+  .gridsquare:hover {
+    animation: colorPulse 2s ease-in-out;
+    animation-play-state: running;
+  }
+  
+  .a {
+    animation: colorPulse 2s ease-in-out;
+    animation-play-state: running;
+  }
+
+  
+  @keyframes colorPulse {
+    0% {
+      background-color: #1b1b31;
+      -webkit-box-shadow: -0.5px 0.5px 32px 5px #151515;
+      -moz-box-shadow: -0.5px 0.5px 32px 5px #151515;
+      box-shadow: -0.5px 0.5px 32px 5px #151515;
+      border-radius: 25%;
+      /* cor inicial */
+    }
+  
+    20% {
+      background-color: #1b1b31d0;
+      -webkit-box-shadow: -0.5px 0.5px 32px 5px #151515;
+      -moz-box-shadow: -0.5px 0.5px 32px 5px #151515;
+      box-shadow: -0.5px 0.5px 32px 5px #151515;
+      /* muda para azul */
+    }
+  
+    80% {
+      background-color: #1b1b319c;
+      -webkit-box-shadow: -0.5px 0.5px 32px 5px #151515;
+      -moz-box-shadow: -0.5px 0.5px 32px 5px #151515;
+      box-shadow: -0.5px 0.5px 32px 5px #151515;
+      /* mantém azul */
+    }
+  
+    100% {
+      background-color: #000;
+      /* volta para cor inicial */
+    }
+  }
+  
+  
+  @media (max-width: 450px) {
+    .gridsquare {
+      width: 98%;
+      height: 97%;
+  
+    }
+  
+    .gridcontainer {
+      grid-template-columns: repeat(4, 1fr);
+      /* 5 colunas de tamanho igual */
+    }
+  
+    .gridcontainer::after {
+      left: 14px;
+      bottom: 200px;
+    }
+  
+    .texto h1 {
+      font-size: 60px;
+    }
+  
+  }
+  
