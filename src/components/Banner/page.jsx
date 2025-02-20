@@ -1,6 +1,6 @@
 import estilo from './estilo.module.css';
 
-import { chakraPetch, poppins } from '../../pages/fonts'
+import { chakraPetch, poppins } from '../../fonts'
 
 import Animacao from '../animacao/page';
 

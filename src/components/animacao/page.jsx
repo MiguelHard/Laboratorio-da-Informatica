@@ -2,7 +2,7 @@
 
 import estilo from './estilo.module.css'
 
-import { chakraPetch } from '../../pages/fonts'
+import { chakraPetch } from '../../fonts'
 
 import { useState, useEffect } from 'react';
 
