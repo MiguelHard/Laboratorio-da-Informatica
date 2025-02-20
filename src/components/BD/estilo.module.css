@@ -1,0 +1,119 @@
+.BD{
+    background-color: #8061ff;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #0c0a33;
+    width: 80%;
+    height: 70%;
+    padding: 70px;
+}
+
+.Texto{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 50%;
+    width: 90%;
+    color: #fff;
+}
+
+.Texto h1{
+    font-size: 50px;
+    width: 100%;
+}
+
+.Texto p{
+    color: #D9E1FF;
+    font-size: 18px;
+}
+
+.Cards{
+    width: 100%;
+    display: flex;
+    color: #D9E1FF;
+    height: 40%;
+}
+
+.Card{
+    width: 33%;
+    height: 100%;
+}
+
+.Card h2 {
+    font-size: 29px;
+    padding-bottom: 20px;
+}
+
+.Card p{
+    font-size: 20px;
+}
+
+.img{
+    font-size: 40px;
+    color: #8061ff;
+}
+
+@media (max-width: 850px) {
+
+    .Conteudo {
+        width: 90%;
+        padding: 10px 10px;
+    }
+
+    .Texto{
+        width: 100%;
+        height: 40%;
+    }
+
+    .Texto h1{
+        font-size: 40px;
+    }
+
+    .Cards{
+        height: 60%;
+    }
+
+    .BD{
+        height: 100vh;
+        padding: 0;
+    }
+}
+
+
+@media (max-width: 450px) {
+
+    .Conteudo {
+        width: 90%;
+        height: 90%;
+        padding: 10px;
+        gap: 0;
+    }
+
+    .Texto{
+        width: 100%;
+        height: 30%;
+    }
+
+    .Cards{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .Card{
+        width: 100%;
+    }
+
+    .BD{
+        height: 150vh;
+        padding: 0;
+    }
+}

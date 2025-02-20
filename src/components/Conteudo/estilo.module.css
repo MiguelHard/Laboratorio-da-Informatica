@@ -1,0 +1,12 @@
+.Conteudo{
+    height: 250vh;
+    width: 100%;
+    background-color: #0c0a33;
+}
+
+@media (max-width: 450px) {
+
+    .Conteudo {
+        height: 500vh;
+    }
+}

@@ -1,0 +1,93 @@
+.Manutencao{
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 20px;
+}
+
+.img{
+    height: 100%;
+    width: 25%;
+}
+
+
+.Sobre{
+    width: 40%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+}
+
+.Texto{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 30%;
+    width: 90%;
+}
+
+.Texto h1{
+    font-size: 50px;
+    width: 100%;
+}
+
+.Texto p{
+    color: #D9E1FF;
+    font-size: 18px;
+}
+
+.Cards{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 40%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Card{
+    width: 45%;
+    padding: 15px;
+    background-color: #2d2252;
+    color: #D9E1FF;
+    flex-grow: 1;
+    border-radius: 10px;
+}
+
+.Card h2 {
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+.Card p{
+    font-size: 18px;
+}
+
+
+
+@media (max-width: 850px) {
+
+    .img {
+        display: none;
+    }
+
+    .Sobre{
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 460px) {
+
+    .Card{
+        width: 90%;
+    }
+
+    .Sobre{
+        gap: 100px;
+    }
+
+}

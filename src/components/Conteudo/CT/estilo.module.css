@@ -1,10 +1,9 @@
-.Rodape{
-    height: 70vh;
-    width: 100%;
-    background-color: #0c0a33;
+.CT{
     display: flex;
-    justify-content: center;
-    padding: 0 50px;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+    height: 25%;
 }
 
 .Conteudo{
@@ -26,12 +25,12 @@
 }
 
 .Texto h1{
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .Texto p{
     color: #D9E1FF;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .Cards{
@@ -39,7 +38,7 @@
     display: flex;
     color: #D9E1FF;
     height: 40%;
-    gap: 30px;
+    gap: 40px;
 }
 
 .Card{
@@ -48,37 +47,25 @@
 }
 
 .Card h2 {
-    font-size: 27px;
+    font-size: 29px;
     padding-bottom: 20px;
     width: 90%;
 }
 
-.Card a{
+.Card p{
     font-size: 20px;
-    color: #fff;
-    text-decoration: none;
-}
-
-.Card a:hover{
-    text-decoration: underline;
-    color: aqua;
-}
-
-.email{
-    word-break: break-all;
 }
 
 
 @media (max-width: 850px) {
     
-    .ES{
-        padding: 10px;
+    .CT{
+        padding: 20px;
     }
 
     .Conteudo {
         padding: 10px 10px;
         width: 100%;
-        gap: 0;
     }
 
     .Cards{
@@ -89,45 +76,33 @@
         height: 80%;
         width: 55%;
     }
-
-    .Card a{
-        font-size: 15px;
-    }
 }
 
 
 @media (max-width: 450px) {
-    
-    .Rodape{
-        height: 110vh;
+
+    .Conteudo {
+        width: 90%;
+        height: 90%;
+        padding: 10px;
+        gap: 180px;
     }
 
     .Texto{
         width: 100%;
-        height: 40%;
+        height: 30%;
     }
 
     .Texto h1{
-        font-size: 33px;
-    }
-
-
-    .Conteudo {
-        padding: 10px 10px;
-        width: 100%;
+        font-size: 40px;
     }
 
     .Cards{
-        width: 100%;
         flex-direction: column;
+        gap: 30px;
     }
 
     .Card{
         width: 100%;
     }
-
-    .Card a{
-        font-size: 18px;
-    }
-
 }
