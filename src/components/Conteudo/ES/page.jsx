@@ -26,9 +26,6 @@ export default function ES() {
 
 
                     <div className={estilo.imagem}>
-                        <p className={estilo.p1}>1</p>
-                        <p className={estilo.p2}>2</p>
-                        <p className={estilo.p3}>3</p>
                     </div>
 
 

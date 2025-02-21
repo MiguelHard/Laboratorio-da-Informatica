@@ -4,7 +4,6 @@ import { chakraPetch, poppins } from '../../fonts';
 
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import { FaFacebookSquare } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 
 export default function Rodape() {
@@ -27,7 +26,6 @@ export default function Rodape() {
 
                     <div className={estilo.Card}>
                         <h2 className={chakraPetch.className}>Siga nossas redes sociais</h2>
-                        <a href='https://www.facebook.com/share/18QSX4fyJC/'><FaFacebookSquare /> solucoestecnicasemtecnologia</a>
                         <a href='https://www.instagram.com/solutec_solucoesemtecnologia?igsh=ZXptdGNiYTU3azQz'><FaInstagram /> solutecsolucoesemtecnologia</a>
                     </div>
 

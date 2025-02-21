@@ -95,3 +95,24 @@
         width: 30%;
     }
 }
+
+@media (max-width: 1300px) {
+
+    .Card{
+        height: 25%;
+    }
+
+    .CardTexto{
+        width: 70%;
+    }
+
+    .Formato{
+        width: 20%;
+    }
+
+    .Qualidades{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

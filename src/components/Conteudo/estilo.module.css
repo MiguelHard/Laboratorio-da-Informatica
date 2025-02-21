@@ -10,3 +10,11 @@
         height: 500vh;
     }
 }
+
+
+@media (max-width: 1300px) {
+
+    .Conteudo {
+        height: 350vh;
+    }
+}

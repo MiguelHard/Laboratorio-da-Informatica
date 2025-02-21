@@ -15,3 +15,12 @@
   }
 
 }
+
+@media (max-width: 1300px) {
+    
+  .DM{
+    height: 280vh;
+    gap: 20px;
+  }
+
+}

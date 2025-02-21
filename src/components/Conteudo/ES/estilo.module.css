@@ -72,11 +72,9 @@
 .imagem{
     height: 100%;
     width: 38%;
-    background-image: url('../../../../public/circulo2.png');
+    background-image: url('../../../../public/circulo3.png');
     background-repeat: no-repeat;
     background-size: contain;
-    position: relative;
-    font-size: 35px;
 }
 
 .p1{
@@ -206,4 +204,13 @@
         visibility: visible;
     }
     
+}
+
+
+@media (max-width: 1300px) {
+    
+    .ES{
+        height: 25%;
+    }
+
 }
