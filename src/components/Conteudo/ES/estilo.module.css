@@ -188,7 +188,7 @@
 }
 
 
-@media (max-width: 1300px) {
+@media (width > 1200px) {
     
     .ES{
         height: 25%;

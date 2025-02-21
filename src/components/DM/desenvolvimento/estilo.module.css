@@ -94,9 +94,13 @@
     .Formato{
         width: 30%;
     }
+
+    .Texto h1{
+        font-size: 40px;
+    }
 }
 
-@media (max-width: 1300px) {
+@media (width > 1200px) {
 
     .Card{
         height: 25%;

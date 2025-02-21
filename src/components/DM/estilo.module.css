@@ -10,16 +10,16 @@
 @media (max-width: 460px) {
     
   .DM{
-    height: 300vh;
-    gap: 20px;
+    height: 340vh;
+    gap: 10px;
   }
 
 }
 
-@media (max-width: 1300px) {
+@media (width > 1200px) {
     
   .DM{
-    height: 280vh;
+    height: 300vh;
     gap: 20px;
   }
 

@@ -134,7 +134,7 @@
 
 
 
-@media (max-width: 1300px) {
+@media (width > 1200px) {
 
     .Conteudo {
         width: 100%;

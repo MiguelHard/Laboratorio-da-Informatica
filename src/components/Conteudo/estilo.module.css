@@ -12,7 +12,7 @@
 }
 
 
-@media (max-width: 1300px) {
+@media (width > 1200px) {
 
     .Conteudo {
         height: 350vh;
