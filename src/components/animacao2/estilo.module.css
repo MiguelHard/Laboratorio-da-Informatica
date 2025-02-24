@@ -1,0 +1,17 @@
+/* Estilos base para todas as animações */
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .slide-up {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  /* Classe que ativa a animação */
+  .fade-in.visible, .slide-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }

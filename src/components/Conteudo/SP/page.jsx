@@ -6,12 +6,17 @@ import Image from 'next/image'
 
 import { chakraPetch } from '../../../fonts'
 
+import Animacao2 from '../../animacao2/page'
+
 export default function SP() {
+        
+    const { ref, isVisible } = Animacao2(0.2);
+
     return (
         <div className={estilo.SP}>
-            <Image src={imagem} className={estilo.img} alt='imagem da area de manutenção' />
+            <Image src={imagem} ref={ref} className={`card fade-in-element ${isVisible ? 'visible' : ''} ${estilo.img}`} alt='imagem da area de manutenção' />
 
-            <div className={estilo.Sobre}>
+            <div ref={ref} className={`card fade-in-element ${isVisible ? 'visible' : ''} ${estilo.Sobre}`}>
 
                 <div className={estilo.Texto}>
                     <h1 className={chakraPetch.className}>Soluções Personalizadas para sua Empresa</h1>

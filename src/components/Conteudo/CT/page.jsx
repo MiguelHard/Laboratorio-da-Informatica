@@ -2,11 +2,16 @@ import estilo from './estilo.module.css'
 
 import { chakraPetch } from '../../../fonts'
 
+import Animacao2 from '../../animacao2/page'
+
 export default function CT() {
+
+    const { ref, isVisible } = Animacao2(0.2);
+
     return (
         <div className={estilo.CT}>
 
-            <div className={estilo.Conteudo}>
+            <div ref={ref} className={`card fade-in-element ${isVisible ? 'visible' : ''} ${estilo.Conteudo}`}>
 
                 <div className={estilo.Texto}>
                     <h1 className={chakraPetch.className}>Consultoria em TI: Estratégia e Inovação</h1>

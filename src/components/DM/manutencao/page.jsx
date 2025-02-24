@@ -3,14 +3,19 @@ import estilo from './estilo.module.css';
 import imagem from '../../../../public/manutencao4.jpg'
 import Image from 'next/image';
 
+import Animacao2 from '../../animacao2/page'
+
 import { chakraPetch } from '../../../fonts'
 
 export default function Manutencao() {
+
+    const { ref, isVisible } = Animacao2(0.2);
+
     return (
         <div className={estilo.Manutencao}>
-            <Image src={imagem} className={estilo.img} alt='imagem da area de manutenção' />
+            <Image src={imagem} ref={ref} className={`card fade-in-element ${isVisible ? 'visible' : ''} ${estilo.img}`}  alt='imagem da area de manutenção' />
 
-            <div className={estilo.Sobre}>
+            <div ref={ref} className={`card fade-in-element ${isVisible ? 'visible' : ''} ${estilo.Sobre}`}>
 
                 <div className={estilo.Texto}>
                     <h1 className={chakraPetch.className}>Manutenção e Suporte em Informática</h1>

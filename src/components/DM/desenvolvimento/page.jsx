@@ -5,20 +5,28 @@ import Image from 'next/image';
 
 import { chakraPetch } from '../../../fonts'
 
+import Animacao2 from '../../animacao2/page'
+
+
 export default function Desenvolvimento() {
+
+    const { ref, isVisible } = Animacao2(0.2);
+
+
     return (
         <div className={estilo.Desenvolvimento}>
-            <Image src={imagem} className={estilo.img} alt='imagem da area de desnvolvimento'/>
+            
+            <Image src={imagem} ref={ref} className={`card fade-in-element ${isVisible ? 'visible' : ''} ${estilo.img}`} alt='imagem da area de desnvolvimento'/>
 
 
-            <div className={estilo.Sobre}>
+            <div ref={ref} className={`card fade-in-element ${isVisible ? 'visible' : ''} ${estilo.Sobre}`}>
 
                 <div className={estilo.Texto}>
                     <h1 className={chakraPetch.className}>Desenvolvimento de Sites e Aplicações</h1>
                     <p>Criamos soluções digitais sob medida para sua empresa. Sites, aplicações web e mobile alinhados com seus objetivos de negócio.</p>
                 </div>
 
-                <div className={estilo.Qualidades}>
+                <div src={imagem}  ref={ref} className={`card fade-in-element ${isVisible ? 'visible' : ''} ${estilo.Qualidades}`} >
 
                     <div className={estilo.Card}>
                         <div className={estilo.Formato}>1</div>

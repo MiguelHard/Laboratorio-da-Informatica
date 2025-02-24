@@ -95,3 +95,25 @@
     }
 
 }
+
+
+
+.img{
+    animation: animacao 1.5s ease-out;
+}
+
+.Qualidades{
+    animation: animacao 1.5s ease-out;
+}
+
+
+
+@keyframes animacao {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

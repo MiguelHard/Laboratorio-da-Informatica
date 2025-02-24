@@ -6,10 +6,15 @@ import { MdOutlineSecurity } from "react-icons/md";
 import { CgWebsite } from "react-icons/cg";
 import { HiOutlineDatabase } from "react-icons/hi";
 
+import Animacao2 from '../animacao2/page'
+
 export default function BD() {
+    
+    const { ref, isVisible } = Animacao2(0.2);
+
     return (
         <div className={`${estilo.BD} ${poppins.className}`}>
-            <div className={estilo.Conteudo}>
+            <div ref={ref} className={`card fade-in-element ${isVisible ? 'visible' : ''} ${estilo.Conteudo}`}>
 
                 <div className={estilo.Texto}>
                     <h1 className={chakraPetch.className}>Banco de Dados: Gerenciamento e Otimização</h1>

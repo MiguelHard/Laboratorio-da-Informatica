@@ -71,11 +71,11 @@
         display: none;
     }
 
-    .Sobre{
+    .Sobre {
         width: 90%;
     }
 
-    .Qualidades{
+    .Qualidades {
         width: 100%;
     }
 }
@@ -83,7 +83,7 @@
 
 @media (max-width: 460px) {
 
-    .Sobre{
+    .Sobre {
         gap: 20px;
     }
 
@@ -91,30 +91,30 @@
         width: 50%;
     }
 
-    .Formato{
+    .Formato {
         width: 30%;
     }
 
-    .Texto h1{
+    .Texto h1 {
         font-size: 40px;
     }
 }
 
 @media (width > 1200px) {
 
-    .Card{
+    .Card {
         height: 25%;
     }
 
-    .CardTexto{
+    .CardTexto {
         width: 70%;
     }
 
-    .Formato{
+    .Formato {
         width: 20%;
     }
 
-    .Qualidades{
+    .Qualidades {
         display: flex;
         flex-direction: column;
         gap: 20px;

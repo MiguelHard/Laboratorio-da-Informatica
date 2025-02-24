@@ -113,12 +113,12 @@
     }
 
     .BD {
-        height: 150vh;
+        height: 160vh;
         padding: 0;
     }
 }
 
-@media (max-width: 1300px) {
+@media (width > 1200px) {
 
     .BD {
         height: 140vh;
