@@ -90,7 +90,7 @@
 }
 
 
-@media (width > 760px) {
+@media ((width > 760px) and (width < 850px)) {
     
     .ES{
         padding: 10px;
