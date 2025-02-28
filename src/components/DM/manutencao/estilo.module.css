@@ -96,24 +96,10 @@
 
 }
 
-
-
-.img{
-    animation: animacao 1.5s ease-out;
-}
-
-.Qualidades{
-    animation: animacao 1.5s ease-out;
-}
-
-
-
-@keyframes animacao {
-    0% {
-        opacity: 0;
+@media ((width > 1200px) and (height < 900px)) {
+    
+    .Cards{
+        gap: 40px;
     }
-
-    100% {
-        opacity: 1;
-    }
-}
+  
+  }

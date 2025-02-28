@@ -24,3 +24,13 @@
   }
 
 }
+
+
+@media ((width > 1100px) and (height < 800px)) {
+    
+  .DM{
+    height: 350vh;
+    gap: 20px;
+  }
+
+}

@@ -124,3 +124,12 @@
         height: 140vh;
     }
 }
+
+@media ((width > 1100px) and (height < 800px)) {
+    
+    .BD{
+      height: 170vh;
+      gap: 20px;
+    }
+  
+  }
