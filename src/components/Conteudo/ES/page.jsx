@@ -14,7 +14,7 @@ export default function ES() {
             <div ref={ref} className={`card fade-in-element ${isVisible ? 'visible' : ''} ${estilo.Conteudo}`}>
 
                 <div className={estilo.Texto}>
-                    <h1 className={chakraPetch.className}>Por que Escolher a Solutec?</h1>
+                    <h1 className={chakraPetch.className}>Por que Escolher o Laboratório da Informática?</h1>
                     <p>Experiência, qualidade e compromisso com o cliente. Somos a parceira ideal para sua empresa.</p>
                 </div>
 
