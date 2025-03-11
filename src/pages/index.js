@@ -22,8 +22,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Solutec</title>
-        <meta name="Solutec" content="Consultoria e assesoria Solutec" />
+        <title>Laboratório da Informática</title>
+        <meta name="Laboratório da Informática" content="Consultoria e assesoria Laboratório da Informática" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

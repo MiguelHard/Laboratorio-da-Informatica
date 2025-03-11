@@ -1,6 +1,6 @@
 import estilo from './estilo.module.css';
 
-import imagem from '../../../../public/programacao7.jpg'
+import imagem from '../../../../public/desenvolvimento.PNG'
 import Image from 'next/image';
 
 import { chakraPetch } from '../../../fonts'
