@@ -1,6 +1,6 @@
 import estilo from './estilo.module.css'
 
-import imagem from '../../../../public/solucoes.PNG'
+import imagem from '../../../../public/banners/digital3.jpg'
 
 import Image from 'next/image'
 
